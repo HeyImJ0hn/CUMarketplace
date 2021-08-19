@@ -1,0 +1,22 @@
+main: cu.GuitarXpress.CUMarketplace.Main
+name: CUMarketplace
+version: 1.0.1
+author: GuitarXpress
+api-version: 1.17
+description: A Marketplace.
+depend: [Vault]
+softdepend: [CUItemSpawn]
+
+permissions:
+   marketplace.use:
+      description: Access to /market - Ability to open the market
+   marketplace.sell:
+      description: Access to /market sell - Ability to sell items
+   marketplace.buy:
+      description: Access to buying items from the market
+   marketplace.remove:
+      description: Access to /market remove - Removes ALL of this player's listings
+
+commands:
+   market:  
+      usage: /<command>
